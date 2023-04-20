@@ -6,6 +6,13 @@ FAF0CA - Tan
 F4D35E - Gold
 */
 
+/* FONT
+font-family: 'Lato', sans-serif;
+font-family: 'Russo One', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Russo+One&display=swap');
+
 /* CSS Browser Reset */
 * {
     margin: 0;
@@ -13,3 +20,72 @@ F4D35E - Gold
     padding: 0;
 }
 
+body{
+
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+blockquote{
+
+}
+
+table{
+
+}
+
+header{
+background-image: linear-gradient(to bottom right, #F4D35E, #FAF0CA,#0D3B66 );
+background-repeat: none;
+background-size: auto;
+}
+
+nav{
+background-color: #FAF0CA;
+
+}
+
+nav ul{
+text-decoration: none;
+
+
+}
+
+nav li a{
+display: block; 
+}
+
+nav li{
+display: inline;
+padding-left: 20px;
+padding-right: 20px;
+text-align: center;
+font-size: 2.5em;
+font-family: 'Russo One', sans-serif;
+}
+
+nav a{
+color: black;
+text-decoration: none;
+}
+
+nav a:hover{
+background-color: black;
+color: white;
+}
+
+blockquote p{
+font-size: 10.5em;
+text-align: center;
+font-family: 'Lato', sans-serif;
+}
+
+blockquote{
+    margin-top: 100px;
+}
